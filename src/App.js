@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Stateintro from "./Components/Stateintro";
+import WithState from "./Components/WithState";
+import SimpleRedux from "./Components/SimpleRedux";
+import Withoutredux from "./Components/Withoutredux";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Stateintro /> */}
+      {/* <WithState /> */}
+      {/* <Withoutredux /> */}
+      <SimpleRedux />
+
+      {/* <Navbar />
+      <Main>
+        <List>
+          <Data />
+        </List>
+      </Main> */}
     </div>
   );
 }
